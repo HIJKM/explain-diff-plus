@@ -45,9 +45,10 @@ the assembler, the template — was written independently for this repo. See
 
 ## Usage
 
-1. Put this repo wherever your agent looks for skills, or just point it at `SKILL.md` and tell it
-   to follow it.
-2. Ask it to explain a diff, commit, or PR — however your agent normally triggers a skill.
+1. Put this repo in an `explain-diff-plus` folder wherever your agent looks for skills, or just
+   point it at `SKILL.md` and tell it to follow it.
+2. Ask it to explain a diff, commit, or PR using `explain-diff-plus` — however your agent normally
+   triggers a skill.
 3. It runs `scripts/render_diff.py --repo <repo> --commit <sha> --list`, writes the Explain-tab
    body and Review-tab comments, then assembles the page with
    `render_diff.py --lang <en|ko>` and opens it.
