@@ -1,17 +1,17 @@
 ---
-name: explain-diff
+name: explain-diff-plus
 description: >-
   Produces a rich, interactive HTML explanation of a specified code change,
   diff, branch, or PR. Sections are Background, Intuition, Code, and Quiz,
   plus a Review tab with the full diff and inline agent comments. Use when
   the user asks to explain a diff/PR/commit, wants a literate or interactive
-  walkthrough of a code change, says "explain-diff", "explain this diff",
+  walkthrough of a code change, says "explain-diff-plus", "explain this diff",
   "walk me through this change", "이 변경 설명해줘", "코드 이해되게 풀어줘",
   or wants the Geoffrey Litt-style explain-diff HTML treatment.
 user-invocable: true
 ---
 
-# Explain Diff
+# Explain Diff Plus
 
 Produces a rich, interactive explanation page for a given code change. The page has two tabs.
 

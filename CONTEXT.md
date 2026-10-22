@@ -1,4 +1,4 @@
-# explain-diff
+# explain-diff-plus
 
 A skill that turns a code change into an explanation page. The reader learns *why* it changed on
 the Explain tab, and sees the actual diff alongside commentary on the Review tab.
